@@ -1,0 +1,68 @@
+.write{
+  float:right;
+  width:200px;
+  margin-top: 20px;
+ margin-right:25px;
+}
+.footerWrap{
+ background-color:white;
+ padding-top:25px;
+ max-width:100%;
+}
+.hr{
+  color: white;
+}
+.footerMid1{
+  display: inline;
+  font-size: 10px;
+padding-left:25px;
+}
+
+.footerMid2{
+  display: inline;
+  padding-left: 500px;
+
+}
+.footerMid3{
+  display: inline;
+  padding:450px;
+
+}
+.socialMedia{
+  width:25px;
+  height:25px;
+}
+.footerLink{
+  text-decoration: none;
+  color:orange;
+  font-size: 12px;
+  padding:10px;
+}
+.logo{
+padding-left:24px;
+}
+.x-container {
+	position: relative;
+	min-height: 80px;
+}
+
+.menu-footer {
+	position: absolute;
+	font: black;
+	right: 0;
+}
+
+.x-colophon-context {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 15px 0 10px 0;
+}
+
+.x-facebook-square {
+	color: black;
+}
+
+x-header-landmark x-container max width {
+display: none !important;
+}

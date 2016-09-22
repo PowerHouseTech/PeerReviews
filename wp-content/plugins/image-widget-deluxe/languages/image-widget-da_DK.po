@@ -1,0 +1,178 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Image Widget\n"
+"POT-Creation-Date: 2016-07-14 11:47+0200\n"
+"PO-Revision-Date: 2016-07-14 11:48+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: image-widget-deluxe.php:91
+msgid "Select an Image"
+msgstr "Vælg et billede"
+
+#: image-widget-deluxe.php:92
+msgid "Use this Image"
+msgstr "Brug dette billede"
+
+#: image-widget-deluxe.php:111
+msgid "Image widget Deluxe"
+msgstr "Billede Widget Deluxe"
+
+#: image-widget-deluxe.php:113
+msgid "A widget that displays an image with title, description and a button."
+msgstr ""
+"En widget der viser et billede med titel, beskrivelse samt en knap eller "
+"link."
+
+#: image-widget-deluxe.php:287
+msgid "Widget Title"
+msgstr "Widget titel"
+
+#: image-widget-deluxe.php:288
+msgid "Give the widget a title (If you need one)"
+msgstr "Giv denne widget en titel. (Hvis du har brug for en)"
+
+#: image-widget-deluxe.php:292
+msgid "Show on front-end"
+msgstr "Vis på front-end"
+
+#: image-widget-deluxe.php:302
+msgid "Title"
+msgstr "Overskrift"
+
+#: image-widget-deluxe.php:304
+msgid "Add a title that will be displayed inside the widget"
+msgstr "En overskrift der vil blive vist inde i widget"
+
+#: image-widget-deluxe.php:311
+msgid "Image"
+msgstr "Billede"
+
+#: image-widget-deluxe.php:312
+msgid "Select image"
+msgstr "Vælg billede"
+
+#: image-widget-deluxe.php:335
+msgid "Text"
+msgstr "Tekst"
+
+#: image-widget-deluxe.php:337
+msgid "Add or edit a description for the widget"
+msgstr "Tilføj eller rediger teksten i widget"
+
+#: image-widget-deluxe.php:344
+msgid "Button"
+msgstr "Knap"
+
+#: image-widget-deluxe.php:346
+msgid "Add a text that will be displayed in the button"
+msgstr "Tilføj en tekst hvis du vil have vist en knap"
+
+#: image-widget-deluxe.php:356
+msgid "Link"
+msgstr "Link"
+
+#: image-widget-deluxe.php:358
+msgid "Add an url that the widget should refer to (Button and Image)"
+msgstr "Tilføj en url som denne widget skal referere til (Knap & Billede)"
+
+#: image-widget-deluxe.php:362
+msgid "Widget Options"
+msgstr "Widget indstillinger"
+
+#: image-widget-deluxe.php:364
+msgid "Link target"
+msgstr "Link mål"
+
+#: image-widget-deluxe.php:370
+msgid "Same window"
+msgstr "Samme vindue"
+
+#: image-widget-deluxe.php:371
+msgid "New window"
+msgstr "Nyt vindue"
+
+#: image-widget-deluxe.php:381 image-widget-deluxe.php:401
+msgid "Select a style for the image"
+msgstr "Vælg en stil billedet skal vises i"
+
+#: image-widget-deluxe.php:384
+msgid "Image style"
+msgstr "Billede styling"
+
+#: image-widget-deluxe.php:390
+msgid "Square"
+msgstr "Uden style"
+
+#: image-widget-deluxe.php:391
+msgid "Round"
+msgstr "Rund style"
+
+#: image-widget-deluxe.php:404
+msgid "Image size"
+msgstr "Billedestørrelse"
+
+#: image-widget-deluxe.php:418
+msgid "Select an image size"
+msgstr "Vælg en billedestørrelse"
+
+#: image-widget-deluxe.php:421
+msgid "Class(es)"
+msgstr "Klasse(r)"
+
+#: image-widget-deluxe.php:423
+msgid "Add your custom classes if you have any. E.g. mycustom-class cta-custom"
+msgstr ""
+"Tilføj særlig klasse(r) (hvis du har brug for det). Eksempelvis minklasse "
+"cta-widget"
+
+#~ msgid "Inner Title"
+#~ msgstr "Overskrift"
+
+#~ msgid "Add a text that will be displayed as an title inside the widget"
+#~ msgstr "Tilføj en tekst som vises som en indre overskrift i widget."
+
+#~ msgid "Remove Image"
+#~ msgstr "Fjern billede"
+
+#~ msgid "Alternate Text"
+#~ msgstr "Alternativ billede tekst"
+
+#~ msgid "Give the image a alt tag"
+#~ msgstr "Giv billedet et alt tag"
+
+#~ msgid "SVFK - Image widget"
+#~ msgstr "SVFK - Billede widget"
+
+#~ msgid "Give the image an alt tag"
+#~ msgstr "Giv billedet et alt tag"
+
+#~ msgid "Add an url that the widget should refer to"
+#~ msgstr "Tilføj en url som billedet skal linke til"
+
+#~ msgid "Give the widget a title (If you need one)."
+#~ msgstr "Giv denne widget en titel (Hvis du har brug for en)."
+
+#~ msgid "Add or edit a description for the widget."
+#~ msgstr "Tilføj eller rediger teksten i widget."
+
+#~ msgid "Image Options"
+#~ msgstr "Billede indstillinger"
+
+#~ msgid "Give the image an alt tag."
+#~ msgstr "Angiv alt tag på billedet."
+
+#~ msgid "Add an url that the widget should refer to."
+#~ msgstr "Tilføj en url som widget skal linke til."
+
+#~ msgid "Select a style for the image."
+#~ msgstr "Vælg en style for billedet."

@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+.widget-image-sortable p {
+    position: relative;
+    background: #e9e9e9;
+    padding: 22px 15px 15px 15px;
+    border: 1px solid #ccc;
+}
+
+.widget-image-sortable p:hover {
+    cursor: pointer;
+}
+
+.widget-image-sortable label {
+    position: absolute;
+    top: 3px;
+    background: #ccc;
+    padding: 0 2px;
+    text-shadow: 1px 1px rgba(255,255,255,.4);
+    left: -8px;
+    font-size: 11px;
+}
+
+.widget-image-sortable label:before {
+    content: "";
+    width: 0;
+    position: absolute;
+    margin-top: 16px;
+    margin-left: -1px;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 1px solid transparent;
+    border-top: 7px solid rgba(22,22,22,.5);
+}
+
+.widget-image-sortable .imageRemove {
+    position: absolute;
+    top: 73px;
+    margin: 0;
+    line-height: 1;
+    right: 15px;
+    background: #ccc;
+    padding: 0 11px 4px 11px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+}
+
+body.wp-customizer .widget-image-sortable .imageRemove {
+    top: 0;
+    right: 0;
+}
+
+.text-right { text-align: right; }
+
+.widget-image-sortable .imagePreview {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.customize-control-widget_form button.widget-image-select {
+    display: block !important;
+}
+
+.widget-image-sortable button.widget-image-select {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    line-height: 0;
+}
+
+.widget-image-sortable label,
+.non-sortable label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.non-sortable h4 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.widget-image-sortable label:last-child {
+    margin-bottom: 0;
+}
+
+.widget-image-sortable .ui-sortable-helper {
+    background: #fff;
+}
+
+.widget-image-sortable .non-sortable {
+    background: #b1b1b1;
+    padding: 15px;
+}

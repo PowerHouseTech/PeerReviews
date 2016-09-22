@@ -1,0 +1,192 @@
+/*--------------------------------------------------------------
+  Custom Register Form -Yetza
+--------------------------------------------------------------*/
+form#signup_form.standard-form.cf.man {
+	width: 60%;
+    margin: 3% 0 0 22% !important;
+}
+
+div#basic-details-section {
+  	width: 90%;
+ 	margin: 0 0 2% 0;
+    border-bottom: 1px solid #dedede;
+}
+
+#basic-details-section h4 {
+    margin: 0 0 2% 0%;
+    width: 92%;
+    text-align: center;
+}
+
+h4 span {
+    border-bottom: 3px solid rgb(244,116,52);
+}
+
+div#basic-details-section input {
+  	/*width: 30%;*/
+    border-radius: 0px;
+    box-shadow: none;
+    border: 1px solid #dedede !important;
+}
+
+div#profile-details-section {
+	width: 90%;
+    margin: 0 0 2% 0;
+}
+
+#profile-details-section h4 {
+    margin: 0 0 2% 0%;
+    width: 92%;
+    text-align: center;
+}
+
+div#profile-details-section input {
+  	/*width: 30%;*/
+    border-radius: 0px;
+    border: 1px solid #dedede !important;
+}
+
+span.username_container, span.email_container {
+	display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    margin-right: 15px;			
+}
+
+span.pass_container, span.conf_container {
+	display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    margin-right: 15px;	
+}
+
+div.editfield {
+	display: inline-block;
+	width: 47%;
+    margin-right: 15px;	
+}
+
+#mceu_16, #wp-field_18-editor-tools, #mceu_20, #mceu_60, #wp-field_12-editor-tools, #mceu_64,#mceu_104, #wp-field_16-editor-tools, #mceu_108,
+#mceu_192, #mceu_196, #wp-field_51-editor-tools, #mceu_236, #mceu_240, #wp-field_53-editor-tools,
+#mceu_280, #mceu_284, #wp-field_55-editor-tools, #wp-field_57-editor-tools, #mceu_148, #mceu_152, #wp-field_52-editor-tools,
+#wp-field_56-editor-tools, #wp-field_54-editor-tools, #wp-field_58-editor-tools {
+    display: none;
+} /*remove editor toolbars */ 
+
+#mceu_15, #mceu_59, #mceu_103, #mceu_191, #mceu_235, #mceu_279, #mceu_147 {
+    border: 1px solid #dedede;  
+}
+
+div#profile-details-section.register-section-extra {
+	/*width: 80%;*/
+    border-bottom: 1px solid #dedede;
+}
+
+#field_2_day {
+    width: 30%;
+    box-shadow: none;
+    /*border: none;	*/
+    border-radius: 0px;
+}
+
+#field_2_month {
+	width: 35%;
+    box-shadow: none;
+    /*border: none;*/
+    border-radius: 0px;
+}
+
+#field_2_year {
+    width: 33%;	
+    box-shadow: none;
+    /*border: none;*/
+    border-radius: 0px;
+}
+
+div#profile-details-section.register-section-aboutme {
+	border-bottom: 1px solid #dedede;
+ }
+
+.register-section-aboutme .editfield {
+    width: 96.4%;
+}
+
+div#profile-details-section.register-section-work {
+    width: 44%;
+    display: inline-block;
+    margin: 0px -2px 0 0;
+    padding: 0px 0px 0 0;
+    border-right: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+}
+
+#profile-details-section.register-section-work h4 {
+	width: 100%;
+    margin: 0 0 5% 0;
+}
+
+.register-section-work .editfield {
+    width: 94%;
+    margin: 0 0px 0 0;
+}
+
+div#profile-details-section.register-section-edu {
+    width: 46%;
+    display: inline-block;
+    padding: 0 3px 0 15px;
+    border-bottom: 1px solid #dedede;
+}
+
+#profile-details-section.register-section-edu h4 {
+	width: 100%;
+    margin: 0 0 5% 0;
+}
+
+.register-section-edu .editfield {
+	width: 94%;
+    margin: 0 0 0 0;
+}
+
+div#profile-details-section.register-section-int {
+	border-bottom: 1px solid #dedede;	
+}
+
+div#profile-details-section.register-section-fav {
+	border-bottom: 1px solid #dedede;	
+}
+
+div#profile-details-section.register-section-contact {
+	border-bottom: 1px solid #dedede;	
+}
+
+input#signup_submit {
+    margin: 2% 0 4% 34.7%;
+    padding: 2% 4% 3.5% 4%;
+    border-radius: 0px;	
+}
+
+label {
+	font-weight: bold;
+}
+
+input#field_29 {
+    width: 100%;
+    margin: 0 0 1.2% 0;
+    box-shadow: none !important;
+}
+
+div#activate-page.page {
+    text-align: center;	
+}
+
+div#message.bp-template-notice.updated {
+    background: #F47434 !important;
+    margin-top: 1%;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+#activate-page #message p {
+	color: #ffffff !important;
+	text-shadow: none !important;
+}

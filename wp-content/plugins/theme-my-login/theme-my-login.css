@@ -1,0 +1,347 @@
+#AnythingPopup_BoxContainer1 {
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -khtml-border-radius: 0px !important;
+    border-radius: 0px !important;
+    border: none !important;
+    box-shadow: 10px 10px 30px #4d4d4d;
+}
+
+#AnythingPopup_BoxContainerHeader1 {
+    background: #F47434 !important;
+    border-radius: 0px !important;
+    height: 40px !important;
+}
+
+#AnythingPopup_BoxTitle1 {
+    margin: 7px 5px 5px 15px !important;
+    font-family: Signika, Helvetica !important;
+    font-weight: 400 !important;
+}
+
+i.fa.fa-times-circle.fa-2x {
+    /*color: #F47434 !important;*/
+    position: relative !important;
+    left: 45% !important;
+    bottom: -2px;
+}
+
+#AnythingPopup_BoxContainerBody1 {
+	overflow: hidden !important;
+    margin: 5px 15px 15px 15px;
+}
+
+/*------->Start Styling form inside modal window*/
+
+#AnythingPopup_BoxContainerBody1 #theme-my-login1 {
+	margin: -65px 0 0 25px;
+	height: 425px;
+}
+
+#AnythingPopup_BoxContainerBody1 form#loginform1 {
+    height: 75%;
+    margin-bottom: 0px;
+}
+
+#AnythingPopup_BoxContainerBody1 .tml-user-login-wrap {
+	margin: -20px 0 0 0;
+	font-size: 14px;
+}
+
+#AnythingPopup_BoxContainerBody1 .tml label {
+    color: #31373E;
+    letter-spacing: initial;
+
+}
+
+#AnythingPopup_BoxContainerBody1 input#user_login1.input {
+    margin: -25px 0 0 0;
+    border-radius: 0px;	
+}
+
+#AnythingPopup_BoxContainerBody1 .tml-user-pass-wrap {
+	margin: -55px 0 0 0;
+	font-size: 14px;
+}
+
+#AnythingPopup_BoxContainerBody1 input#user_pass1.input {
+    margin: -25px 0 0 0;
+    border-radius: 0px;	
+}
+
+#AnythingPopup_BoxContainerBody1 .tml-rememberme-submit-wrap {
+	margin: -75px 0 0 0;	
+	display: inline-block;
+    height: 100px;
+}
+
+#AnythingPopup_BoxContainerBody1 .tml-rememberme-wrap {
+	margin: -35px 0 0 0;
+    width: 190px;
+    display: inline-block;
+    height: 50px;
+}
+
+#AnythingPopup_BoxContainerBody1 input#rememberme1 {
+    position: absolute;
+    display: inline;
+    margin: -10px 0 0 0;
+}
+
+#AnythingPopup_BoxContainerBody1 .tml-rememberme-submit-wrap label {
+    position: absolute;
+    display: inline;
+    left: 57px;
+    bottom: 127px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+#AnythingPopup_BoxContainerBody1 .tml-submit-wrap {
+   display: inline-block;
+    height: 80px;
+    width: inherit;
+    margin: -80px 0 0px 0;
+}
+
+#AnythingPopup_BoxContainerBody1 .tml-submit-wrap input#wp-submit1 {
+    width: inherit;
+    border-radius: 0px;
+}
+
+#AnythingPopup_BoxContainerBody1 .tml-action-links {
+    margin: -70px 0 0 120px;
+    display: inherit;
+}
+
+#AnythingPopup_BoxContainerBody1 .tml-action-links li {
+    border: none;
+}
+
+#AnythingPopup_BoxContainerBody1 .tml-action-links li a {
+	color: #31373E;
+    opacity: 0.4;
+    letter-spacing: normal;
+    font-size: small;
+}
+
+#AnythingPopup_BoxContainerBody1 .tml-action-links li a:hover {
+	color: #31373E;
+	opacity: 1;
+    transition: all 0.15s ease-in-out;
+}
+
+
+/*<------Finish styling from inside modal window*/
+
+.tml {
+	/*max-width: 320px;*/
+	width: 320px;
+    margin: 5% 0 5% 35%;
+}
+
+.tml * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.tml .error,
+.tml .message {
+	color: #333;
+	padding: 0.5em;
+}
+
+.tml .error {
+	border: 1px solid #c00;
+	background-color: #ffebe8;
+}
+
+div.error {
+	color: red;
+}
+
+.tml .message {
+	border: 1px solid #e6db55;
+	background-color: #ffffe0;
+}
+
+.tml p {
+	margin: 0 0 1.5em 0;
+	padding: 0;
+}
+
+.tml label {
+	display: block;
+	text-align: left;
+	font-size: 14px;
+}
+
+.tml .tml-rememberme-wrap label {
+	display: inline;
+}
+
+.tml input,
+.tml textarea,
+.tml select {
+	margin: 0.5em 0;
+	width: 100%;
+    border-radius: 0px !important;
+}
+
+.tml input[type="checkbox"],
+.tml input[type="radio"],
+.tml .tml-rememberme-wrap input {
+	vertical-align: middle;
+	width: auto;
+}
+
+.tml .tml-action-links {
+	display: inline-block;
+	list-style: none;
+	margin: 0.5em auto;
+	padding: 0;
+	text-align: center;
+}
+
+.tml .tml-action-links li {
+	border: none;
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+	float: left;
+	line-height: 1;
+	list-style: none;
+	margin: 0 0.5em 0 0;
+	padding: 0 0.5em 0 0;
+}
+
+.tml .tml-action-links li:last-child {
+	border-right: none;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.tml .tml-action-links a {
+	border: none;
+	display: block;
+	padding: 0;
+	text-decoration: none;
+}
+
+.tml .tml-rememberme-submit-wrap:before,
+.tml .tml-rememberme-submit-wrap:after,
+.tml .tml-action-links:before,
+.tml .tml-action-links:after {
+	content: "";
+	display: table;
+}
+
+.tml .tml-rememberme-submit-wrap:after,
+.tml .tml-action-links:after {
+	clear: both;
+}
+
+.tml .tml-user-avatar {
+	text-align: left;
+}
+
+.mu_register .hint {
+	font-size: 12px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.mu_register label.checkbox {
+	display: inline;
+}
+
+#pass-strength-result {
+	background-color: #eee;
+	border: 1px solid #ddd;
+	color: #23282d;
+	font-weight: 600;
+	margin: 0;
+	padding: 3px 5px;
+	text-align: center;
+	width: 100%;
+	opacity: 0;
+}
+
+#pass-strength-result.short {
+	background-color: #f1adad;
+	border-color: #e35b5b;
+	opacity: 1;
+}
+
+#pass-strength-result.bad {
+	background-color: #fbc5a9;
+	border-color: #f78b53;
+	opacity: 1;
+}
+
+#pass-strength-result.good {
+	background-color: #ffe399;
+	border-color: #ffc733;
+	opacity: 1;
+}
+
+#pass-strength-result.strong {
+	background-color: #c1e1b9;
+	border-color: #83c373;
+	opacity: 1;
+}
+
+.pw-weak {
+	display:none;
+}
+
+.indicator-hint {
+	padding-top: 8px;
+}
+
+#pass1,
+#pass1-text {
+	width: 100%;
+}
+
+#pass1-text,
+.show-password #pass1 {
+	display: none;
+}
+
+.show-password #pass1-text
+{
+	display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+/*@media screen and (max-width: 300px) {*/
+	
+	/*Original Styles in this media query*/
+	.tml .tml-submit-wrap input {
+		width: auto;
+	}
+
+	.tml-login .tml-rememberme-submit-wrap {
+		display: table;
+		margin-bottom: 1.5em;
+		width: 100%;
+	}
+
+	.tml-login .tml-rememberme-wrap {
+		display: table-cell;
+	}
+
+	.tml-login .tml-rememberme-wrap input {
+		margin: 0;
+	}
+
+	.tml-login .tml-submit-wrap {
+		display: table-cell;
+		text-align: right;
+	}
+
+	.tml-login .tml-submit-wrap input {
+		margin: 0;
+		width: auto;
+	}
+}

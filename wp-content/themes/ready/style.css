@@ -1,0 +1,22 @@
+/*
+Theme Name: Ready
+Description: Ready is the aquamarine Coloured Child Theme of Chronicle, One of Our the Great color skin of child theme.
+Author: weblizar
+Author URI: http://weblizar.com/
+Template: chronicle
+Version: 1.1
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Tags: green black, pink , dark, light, white, two-columns, custom-menu, right-sidebar, custom-background, sticky-post, theme-options, threaded-comments, featured-images, responsive-layout
+Text Domain: ready
+*/
+@import url('../chronicle/style.css');
+
+body {
+	padding: 0px;
+	margin: 0px;
+	background: url(images/pattern5.png) repeat left top;
+}
+.sidebar_widget .textwidget img{height:100%; width:100%;}
+.sidebar_widget .textwidget { text-overflow:hidden;}
+.sidebar_widget .textwidget select{width:100%;}

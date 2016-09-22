@@ -1,0 +1,736 @@
+# Loco Gettext template
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Ajax Chat\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-31 14:02+0100\n"
+"POT-Revision-Date: Wed Nov 11 2015 12:10:14 GMT-0800 (PST)\n"
+"PO-Revision-Date: 2016-01-01 15:05+0100\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Language: sk_SK\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../simple-ajax-chat-core.php:75
+msgid "Name and comment required."
+msgstr "Meno a komentár sú vyžadované."
+
+#. Name of the plugin
+msgid "Simple Ajax Chat"
+msgstr "Simple Ajax Chat"
+
+#. URI of the plugin
+msgid "https://perishablepress.com/simple-ajax-chat"
+msgstr "https://perishablepress.com/simple-ajax-chat"
+
+#. Description of the plugin
+msgid ""
+"Displays a fully customizable Ajax-powered chat box anywhere on your site."
+msgstr ""
+"Zobrazí plne prisôsobiteľný Ajaxový chat box kdekoľvek na Vašej stránke."
+
+#. Author of the plugin
+msgid "Jeff Starr"
+msgstr "Jeff Starr"
+
+#. Author URI of the plugin
+msgid "http://monzilla.biz"
+msgstr "http://monzilla.biz"
+
+#: ../simple-ajax-chat-core.php:56
+msgid "requires WordPress "
+msgstr "vyžaduje WordPress"
+
+#: ../simple-ajax-chat-core.php:56
+msgid " or higher, and has been deactivated!"
+msgstr "alebo vyššie a bol deaktivovaný!"
+
+#: ../simple-ajax-chat-core.php:57
+msgid "Please return to the"
+msgstr "Prosím vráťte sa do"
+
+#: ../simple-ajax-chat-core.php:57
+msgid "WordPress Admin area"
+msgstr "WordPress Admin zóny"
+
+#: ../simple-ajax-chat-core.php:57
+msgid "to upgrade WordPress and try again."
+msgstr "a pre upgrade WordPress-u a potom to skúste znova."
+
+#: ../simple-ajax-chat-core.php:90
+msgid "High five! You&rsquo;ve successfully installed Simple Ajax Chat."
+msgstr "Ruku na to! Úspešne ste nainštalovali Simple Ajax Chat."
+
+#: ../simple-ajax-chat-core.php:110
+msgid "ago"
+msgstr "dozadu"
+
+#: ../simple-ajax-chat-core.php:172
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: ../simple-ajax-chat-core.php:180
+msgid "Click Here to Rate and Review this Plugin on WordPress.org"
+msgstr "Kliknite sem pre hodnotenie a recenziu tohto pluginu na Wordpress.org"
+
+#: ../simple-ajax-chat-core.php:180
+msgid "Rate this plugin"
+msgstr "Ohodnoťte tento plugin"
+
+#: ../simple-ajax-chat-core.php:250
+msgid "year"
+msgstr "rok"
+
+#: ../simple-ajax-chat-core.php:251
+msgid "month"
+msgstr "mesiac"
+
+#: ../simple-ajax-chat-core.php:252
+msgid "week"
+msgstr "týždeň"
+
+#: ../simple-ajax-chat-core.php:253
+msgid "day"
+msgstr "deň"
+
+#: ../simple-ajax-chat-core.php:254
+msgid "hour"
+msgstr "hodina"
+
+#: ../simple-ajax-chat-core.php:255
+msgid "minute"
+msgstr "minúta"
+
+#: ../simple-ajax-chat-admin.php:22 ../simple-ajax-chat-admin.php:59
+msgid "Welcome to the Chat Forum"
+msgstr "Vitajte v Chat Forum"
+
+#: ../simple-ajax-chat-admin.php:186
+msgid "Currently there"
+msgstr "Momentálne "
+
+#: ../simple-ajax-chat-admin.php:190
+#, php-format
+msgid " is %s"
+msgid_plural " are %s"
+msgstr[0] "je %s"
+msgstr[1] "sú %s"
+msgstr[2] "sú %s"
+
+#: ../simple-ajax-chat-admin.php:191
+msgid " chat message (your default message)"
+msgid_plural " chat messages"
+msgstr[0] "správa (vaša prednastavená správa)"
+msgstr[1] "správy"
+msgstr[2] "správy"
+
+#: ../simple-ajax-chat-admin.php:193
+msgid " are 0 chat messages. Please add at least one message via the chat box."
+msgstr "je 0 správ. Prosím pridajte aspoň jednu správu "
+
+#: ../simple-ajax-chat-admin.php:239
+msgid "The comment was deleted successfully."
+msgstr "Komentár bol úspešne vymazaný."
+
+#: ../simple-ajax-chat-admin.php:243
+msgid "The comment was edited successfully."
+msgstr "Komentár bol úspešne zmenený."
+
+#: ../simple-ajax-chat-admin.php:247
+msgid "All chat messages have been cleared from the database."
+msgstr "Všetky správy boli vyčistené z databázy."
+
+#: ../simple-ajax-chat-admin.php:251
+msgid "Options successfully restored to default settings."
+msgstr "Nastavenia úspešne obnovené na prednastavené hodnoty."
+
+#: ../simple-ajax-chat-admin.php:255
+msgid "Options saved. All plugin options will be removed upon uninstall."
+msgstr "Nastavenia uložené. Všetky nastavenia budú zmazané po odinštalovaní."
+
+#: ../simple-ajax-chat-admin.php:259
+msgid "Toggle all panels"
+msgstr "Prepni všetky panely"
+
+#: ../simple-ajax-chat-admin.php:268
+msgid "Simple Ajax Chat needs your support!"
+msgstr "Simple Ajax Chat potrebuje Vašu podporu!"
+
+#: ../simple-ajax-chat-admin.php:272
+msgid "Please"
+msgstr "Prosím"
+
+#: ../simple-ajax-chat-admin.php:272
+msgid "Make a donation via PayPal"
+msgstr "Prispejte cez PayPal"
+
+#: ../simple-ajax-chat-admin.php:272
+msgid "make a donation"
+msgstr "prispejte"
+
+#: ../simple-ajax-chat-admin.php:272
+msgid "and/or"
+msgstr "a/alebo"
+
+#: ../simple-ajax-chat-admin.php:273
+msgid "Rate and review at the Plugin Directory"
+msgstr "Hodnotenia a recenzie na Plugin Direcory"
+
+#: ../simple-ajax-chat-admin.php:274
+msgid "give it a 5-star rating"
+msgstr "dajte nám 5 hviezdičiek"
+
+#: ../simple-ajax-chat-admin.php:278
+msgid ""
+"Your generous support enables continued development of this free plugin. "
+"Thank you!"
+msgstr ""
+"Váša štedrá podpora umožňuje kontinuálny rozvoj tohto voľne šíriteľného "
+"pluginu. Ďakujeme!"
+
+#: ../simple-ajax-chat-admin.php:283
+msgid "Check this box if you have shown support"
+msgstr "Začiarknite ak ste nás už podporili."
+
+#: ../simple-ajax-chat-admin.php:291
+msgid "Overview"
+msgstr "Prehľad"
+
+#: ../simple-ajax-chat-admin.php:295
+msgid "(SAC) displays an Ajax-powered chat box anywhere on your site."
+msgstr "(SAC) zobrazí Ajax-ový box kdekoľvek na vašej stránke."
+
+#: ../simple-ajax-chat-admin.php:296
+msgid ""
+"Use the shortcode to display the chat box on a post or page. Use the "
+"template tag to display anywhere in your theme template."
+msgstr ""
+"Použite skratku pre zobrazenie chat boxu na príspevku alebo stránke. Použite "
+"tag šablóny pre zobrazenie kdekoľvek vo vašej témovej šablóne."
+
+#: ../simple-ajax-chat-admin.php:299
+msgid "To configure your settings, visit"
+msgstr "Pre vaše nastavenie navštívte"
+
+#: ../simple-ajax-chat-admin.php:299 ../simple-ajax-chat-admin.php:318
+msgid "Chat Options"
+msgstr "Možnosti chatu"
+
+#: ../simple-ajax-chat-admin.php:300
+msgid "For the shortcode and template tag, visit"
+msgstr "Pre skratky a tagy šablóny navštívte"
+
+#: ../simple-ajax-chat-admin.php:300 ../simple-ajax-chat-admin.php:489
+msgid "Template Tag &amp; Shortcode"
+msgstr "Tag Šablóny &amp; Skratka"
+
+#: ../simple-ajax-chat-admin.php:301
+msgid "To manage the current chat messages, visit"
+msgstr "Pre správu aktuálnych správ, navštívte"
+
+#: ../simple-ajax-chat-admin.php:301 ../simple-ajax-chat-admin.php:501
+msgid "Manage Chat Messages"
+msgstr "Správa chatových správ "
+
+#: ../simple-ajax-chat-admin.php:302
+msgid "To block a word or phrase from chat, visit"
+msgstr "Pre zablokovanie slova alebo frázy v chate, navštívte"
+
+#: ../simple-ajax-chat-admin.php:302 ../simple-ajax-chat-admin.php:560
+msgid "Banned Phrases"
+msgstr "Zakázané frázy"
+
+#: ../simple-ajax-chat-admin.php:304
+msgid "For more information check the"
+msgstr "Pre viac info skontrolujte"
+
+#: ../simple-ajax-chat-admin.php:305
+msgid "and"
+msgstr "a"
+
+#: ../simple-ajax-chat-admin.php:305
+msgid "SAC Homepage"
+msgstr "SAC stránka"
+
+#: ../simple-ajax-chat-admin.php:307
+msgid "If you like this plugin, please"
+msgstr "Ak sa Vám tento plugin páči, prosím"
+
+#: ../simple-ajax-chat-admin.php:308
+msgid "Click here to rate and review this plugin on WordPress.org"
+msgstr "Kliknite pre hodnotenie a recenzie tohto pluginu na Wordpress.org"
+
+#: ../simple-ajax-chat-admin.php:309
+msgid "rate it at the Plugin Directory"
+msgstr "ohodnoťte ho na Plugin Direcory"
+
+#: ../simple-ajax-chat-admin.php:324
+msgid ""
+"Here you may customize Simple Ajax Chat to suit your needs. Note: after "
+"updating time and color options, you may need to refresh/empty the browser "
+"cache before you see the changes take effect."
+msgstr ""
+"Tu môžete prispôsobiť \"Simple Ajax Chat\" pre vaše potreby. Pozn: po zmene "
+"časových a farebných nastavení možno bude potrebné obnoviť/vyčistiť cache "
+"browsera, aby sa nové nastavenia prejavili."
+
+#: ../simple-ajax-chat-admin.php:326
+msgid "General options"
+msgstr "Všeobecné nastavenia"
+
+#: ../simple-ajax-chat-admin.php:330
+msgid "Chat order"
+msgstr "Poradie správ"
+
+#: ../simple-ajax-chat-admin.php:332
+msgid ""
+"Check this box to display chats in ascending order (new messages appear at "
+"the bottom of the list). Note: this new feature is experimental and requires "
+"jQuery to work correctly. Default: unchecked (new messages appear at the top "
+"of the list)."
+msgstr ""
+"Zaškrtnite ak chcete zobraziť správy vzostupne (nové správy sa zobrazia "
+"naspodku zoznamu). Pozn: táto funkcia je experimentálna a vyžaduje správne "
+"fungovanie jQuery. Východzie nastavenie: nezaškrtnuté (nové správy sa "
+"objavia navrchu zoznamu)."
+
+#: ../simple-ajax-chat-admin.php:335
+msgid "Require log in?"
+msgstr "Vyžaduje sa prihlásenie?"
+
+#: ../simple-ajax-chat-admin.php:337
+msgid ""
+"Check this box to require users to be logged in (i.e., registered users) to "
+"view and use the chat box."
+msgstr ""
+"Zaškrtnite ak chcete vyžadovať prihlásenie používateľov (registrovaných) pre "
+"zobrazenie a používanie chatu."
+
+#: ../simple-ajax-chat-admin.php:340
+msgid "Enable URL?"
+msgstr "Zapnúť URL?"
+
+#: ../simple-ajax-chat-admin.php:342
+msgid ""
+"Check this box if you want users to be able to include a URL for their chat "
+"name."
+msgstr ""
+"Zaškrtnite ak chcete aby používatelia mohli zadať URL pri ich chat mene."
+
+#: ../simple-ajax-chat-admin.php:345
+msgid "Use textarea?"
+msgstr "Použiť textové pole?"
+
+#: ../simple-ajax-chat-admin.php:347
+msgid "Check this box to use a larger input field for chat messages."
+msgstr "Zaškrtnite ak chcete použiť väčšie políčko pre chat správy."
+
+#: ../simple-ajax-chat-admin.php:350
+msgid "Default name"
+msgstr "Východzie meno"
+
+#: ../simple-ajax-chat-admin.php:353
+msgid ""
+"Here you may customize the name of the username for the &ldquo;"
+"welcome&rdquo; message. Note: reset/clear the chat messages for the new name "
+"to be displayed."
+msgstr ""
+"Tu môžete prispôsobiť meno používateľa pre &ldquo;uvítaciu&rdquo; správu. "
+"Pozn: zresetujte/vyčistite správy aby ste zobrazili toto meno."
+
+#: ../simple-ajax-chat-admin.php:357
+msgid "Default message"
+msgstr "Východzia správa"
+
+#: ../simple-ajax-chat-admin.php:360
+msgid ""
+"Here you may customize the &ldquo;welcome&rdquo; message that appears as the "
+"first chat comment. Note: reset/clear the chat messages for the new welcome "
+"message to be displayed."
+msgstr ""
+"Tu môžete prispôsobiť &ldquo;uvítaciu&rdquo; správu ktorá sa zobrazí ako "
+"prvý komentár. Pozn: zresetujte/vyčistite správy aby ste zobrazili túto "
+"uvítaciu správu."
+
+#: ../simple-ajax-chat-admin.php:364
+msgid "Sound alerts?"
+msgstr "Zvukové upozornenia?"
+
+#: ../simple-ajax-chat-admin.php:366
+msgid ""
+"Check this box if you want to hear a sound for new chat messages. Tip: to "
+"change the sound file, replace the file \"msg.mp3\" with any (short) mp3 "
+"file."
+msgstr ""
+"Zaškrtnite ak chcete počuť zvukový oznam pri nových správach. Tip: pre zmenu "
+"zvukového súboru zameňte súbor \"msg.mp3\" akýmkoľvek (krátkym) mp3 súborom."
+
+#: ../simple-ajax-chat-admin.php:369
+msgid "Use logged-in username"
+msgstr "Použitie prihláseného používateľa"
+
+#: ../simple-ajax-chat-admin.php:371
+msgid ""
+"Check this box if you want to use the logged-in username as the chat name."
+msgstr "Zaškrtnite ak chcete použiť meno prihláseného ako meno v chate."
+
+#: ../simple-ajax-chat-admin.php:374
+msgid "Max chats"
+msgstr "Maximálny počet chatov"
+
+#: ../simple-ajax-chat-admin.php:376
+msgid "Maximum number of chats that should be allowed in the chat box."
+msgstr "Maximálny počet chatov ktoré by mali byť povolené v chat boxe."
+
+#: ../simple-ajax-chat-admin.php:379
+msgid "Max characters"
+msgstr "Maximálny počet znakov"
+
+#: ../simple-ajax-chat-admin.php:381
+msgid "Maximum number of chats that should be allowed in each chat message."
+msgstr "Maximálny počet chatov ktoré by mali byť povolené pre každú správu."
+
+#: ../simple-ajax-chat-admin.php:384
+msgid "Username length"
+msgstr "Dĺžka mena používateľa"
+
+#: ../simple-ajax-chat-admin.php:386
+msgid "Maximum number of chats that should be allowed in the username."
+msgstr "Maximálny počet chatov ktoré by mali byť povolené pre používateľa."
+
+#: ../simple-ajax-chat-admin.php:390
+msgid "Times and colors"
+msgstr "Časy a farby"
+
+#: ../simple-ajax-chat-admin.php:394
+msgid "Update interval"
+msgstr "Interval obnovena"
+
+#: ../simple-ajax-chat-admin.php:398
+msgid ""
+"Indicate the refresh frequency (in milliseconds, decimals allowed). Smaller "
+"numbers make new chat messages appear faster, but also increase server "
+"load.\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tThis number is used as the interval for the first "
+"eight Ajax requests; after that, the number is automatically increased. "
+"Adding a new comment or \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tmousing over the chat box will reset the interval "
+"to the number specified here. The default is 3 seconds (3000 ms)."
+msgstr ""
+"Zadajte frekvenciu obnovovania (v milisekundách, desatinné čísla povolené). "
+"Menšie čísla zobrazia nové správy rýchlejšie, avšak zvyšuje zaťaženie "
+"servera.\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tToto číslo sa používa ako interval pre prvých osem "
+"Ajax požiadaviek; potom je toto číslo automaticky zvýšené. Pridanie nového "
+"komentáru alebo \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\tprejdenie myšou cez chat box zresetuje interval na "
+"číslo tu špecifikované. Základný interval je 3 seconds (3000 ms)."
+
+#: ../simple-ajax-chat-admin.php:405
+msgid "Fade duration"
+msgstr "Trvanie zblednutia"
+
+#: ../simple-ajax-chat-admin.php:408
+msgid ""
+"This number specifies the fade-duration of the most recent chat message (in "
+"milliseconds, decimals allowed). Default is 1.5 seconds (1500 ms)."
+msgstr ""
+"Toto číslo špecifikuje dobu trvavnia zblednutia posledných správ (v "
+"milisekundách, desatinné čísla povolené). Predvolené je 1,5s (1500ms)."
+
+#: ../simple-ajax-chat-admin.php:412
+msgid "Highlight fade (from)"
+msgstr "Zvýraznené zblednutie (z)"
+
+#: ../simple-ajax-chat-admin.php:415
+msgid ""
+"Here you may customize the &ldquo;fade-in&rdquo; background-color of new "
+"chat messages. Note: colors must be 6-digit-hex format, default color is "
+"<code>#ffffcc</code>."
+msgstr ""
+"Tu môžete prispôsobiť &ldquo;fade-in&rdquo; (stmavenie) background-color "
+"(farba-pozadia) nových správ v chate. Pozn: farby musia mať formát 6 "
+"ciferného čísla, základná farba je biela <code>#ffffff</code>."
+
+#: ../simple-ajax-chat-admin.php:419
+msgid "Highlight fade (to)"
+msgstr "Zvýraznené zblednutie (do)"
+
+#: ../simple-ajax-chat-admin.php:422
+msgid ""
+"Here you may customize the &ldquo;fade-out&rdquo; background-color of new "
+"chat messages. Note: colors must be 6-digit-hex format, default color is "
+"<code>#ffffff</code>."
+msgstr ""
+"Tu môžete prispôsobiť &ldquo;fade-out&rdquo; (zblednutie) background-color "
+"(farba-pozadia) nových správ v chate. Pozn: farby musia mať formát 6 "
+"ciferného čísla, základná farba je biela <code>#ffffff</code>."
+
+#: ../simple-ajax-chat-admin.php:427
+msgid "Appearance"
+msgstr "Správanie"
+
+#: ../simple-ajax-chat-admin.php:431
+msgid "Custom CSS styles"
+msgstr "Vlastný CSS štýl"
+
+#: ../simple-ajax-chat-admin.php:433
+msgid ""
+"Here you may add custom CSS to style the chat form. Do not include <code>&lt;"
+"style&gt;</code> tags. Note: view <code>/resources/sac.css</code> for a "
+"complete set of available CSS hooks."
+msgstr ""
+"Tu môžete pridať vlatné CSS štýlovanie do chatu. Nepridávajte <code>&lt;"
+"style&gt;</code> tagy. Pozn: pozri <code>/resources/sac.css</code> pre "
+"kompletný zoznam dostupných CSS tagov. "
+
+#: ../simple-ajax-chat-admin.php:436
+msgid "Enable custom styles?"
+msgstr "Zapnúť vlastný štýl?"
+
+#: ../simple-ajax-chat-admin.php:438
+msgid "Check this box if you want to enable the CSS styles."
+msgstr "Zaškrtnite toto políčko pre zapnutie vlastného CSS štýlu."
+
+#: ../simple-ajax-chat-admin.php:442
+msgid "Targeted loading"
+msgstr "Cielené nahratie"
+
+#: ../simple-ajax-chat-admin.php:446
+msgid "Chat URL"
+msgstr "URL chatu"
+
+#: ../simple-ajax-chat-admin.php:449
+msgid ""
+"By default, the plugin includes its JavaScript on <em>every</em> page. To "
+"prevent this, and to include its JavaScript only on the chat page, enter the "
+"URL where it&rsquo;s displayed. Note: leave blank to disable."
+msgstr ""
+"Je predvolené, že plugin pridá svoj JavaScript na <em>každej</em> stránke. "
+"Ak tomu chcete zabrániť a chcete pridať tento JavaScript len na stránke "
+"chatu, pridajte URL kde je chat zobrazený. Pozn: pre vypnutie nechajte "
+"prázdne."
+
+#: ../simple-ajax-chat-admin.php:454
+msgid "Custom content"
+msgstr "Vlastný obsah"
+
+#: ../simple-ajax-chat-admin.php:458
+msgid "Custom content before chat box"
+msgstr "Vlastný obsah pred chat boxom"
+
+#: ../simple-ajax-chat-admin.php:460
+msgid ""
+"Here you may specify any custom text/markup that will appear <strong>before</"
+"strong> the chat box. Note: leave blank to disable."
+msgstr ""
+"Tu môžete špecifikovať akýkoľvek text/značku ktorá sa objaví <strong>pred</"
+"strong> chat boxom. Pozn: pre vypnutie nechajte prázdne."
+
+#: ../simple-ajax-chat-admin.php:463
+msgid "Custom content after chat box"
+msgstr "Vlastný obsah po chat poxe"
+
+#: ../simple-ajax-chat-admin.php:465
+msgid ""
+"Here you may specify any custom text/markup that will appear <strong>after</"
+"strong> the chat box. Note: leave blank to disable."
+msgstr ""
+"Tu môžete špecifikovať akýkoľvek text/značku ktorá sa objaví <strong>po</"
+"strong> chat boxe. Pozn: pre vypnutie nechajte prázdne."
+
+#: ../simple-ajax-chat-admin.php:468
+msgid "Custom content before chat form"
+msgstr "Vlastný obsah pred chat formulárom"
+
+#: ../simple-ajax-chat-admin.php:470
+msgid ""
+"Here you may specify any custom text/markup that will appear <strong>before</"
+"strong> the chat form.  Note: leave blank to disable."
+msgstr ""
+"Tu môžete špecifikovať akýkoľvek text/značku ktorá sa objaví <strong>pred</"
+"strong> chat formulárom. Pozn: pre vypnutie nechajte prázdne."
+
+#: ../simple-ajax-chat-admin.php:473
+msgid "Custom content after chat form"
+msgstr "Vlastný obsah po chat formulári"
+
+#: ../simple-ajax-chat-admin.php:475
+msgid ""
+"Here you may specify any custom text/markup that will appear <strong>after</"
+"strong> the chat form.  Note: leave blank to disable."
+msgstr ""
+"Tu môžete špecifikovať akýkoľvek text/značku ktorá sa objaví <strong>po</"
+"strong> chat formulári. Pozn: pre vypnutie nechajte prázdne."
+
+#: ../simple-ajax-chat-admin.php:479 ../simple-ajax-chat-admin.php:579
+msgid "Save Settings"
+msgstr "Uložiť nastavenia"
+
+#: ../simple-ajax-chat-admin.php:491
+msgid "Shortcode"
+msgstr "Skratka"
+
+#: ../simple-ajax-chat-admin.php:492
+msgid "Use this shortcode to display the chat box on a post or page:"
+msgstr ""
+"Použite túto skratku pre zobrazenie boxu s chatom na stránke alebo príspevku:"
+
+#: ../simple-ajax-chat-admin.php:494
+msgid "Template tag"
+msgstr "Tag templatu"
+
+#: ../simple-ajax-chat-admin.php:495
+msgid ""
+"Use this template tag to display the chat box anywhere in your theme "
+"template:"
+msgstr ""
+"Pridajte tento TAG a zobrazte box s chatom kdekoľvek v template vašej témy: "
+
+#: ../simple-ajax-chat-admin.php:510
+msgid ""
+"Here is a <em>static</em> list of all chat messages for editing and/or "
+"deleting. Note that you must have at least <strong>one message</strong> in "
+"the chat box at all times."
+msgstr ""
+"Tu je <em>statický</em> zoznam všetkých správ  pre potreby zmeny a zmazania. "
+"Poznámka: musíte mať aspoň <strong>jednu správu</strong> od začiatku."
+
+#: ../simple-ajax-chat-admin.php:511
+msgid ""
+"Clicking &ldquo;Delete all chat messages&rdquo; will clear the database and "
+"add your default message to make it all good."
+msgstr ""
+"Stlačením &ldquo;Vymazať všetky správy&rdquo; sa vyčistí databáza a prídá sa "
+"výchdodzia správa a všetko bude v poriadku."
+
+#: ../simple-ajax-chat-admin.php:518
+msgid ""
+"You must have at least one message in the chat box at all times! Go post a "
+"few chat messages and try again."
+msgstr ""
+"Musíte mať aspoň jednu správu! Pridajte nejaké nové správy a skúste to znova."
+
+#: ../simple-ajax-chat-admin.php:532
+#, php-format
+msgid "Latest message: %s ago"
+msgstr "Posledná správa: %s dozadu"
+
+#: ../simple-ajax-chat-admin.php:554
+msgid "Delete all chat messages"
+msgstr "Vymazať všetky správy"
+
+#: ../simple-ajax-chat-admin.php:568
+msgid ""
+"Here you may specify a list of words that should be banned from the chat "
+"room. Separate words with commas. Note: this applies to usernames, URLs, and "
+"chat messages."
+msgstr ""
+"Tu môžete špecifikovať zoznam slov, ktoré majú byť zakázané v chat "
+"miestnostiach. Oddeľte slová čiarkami. Pozn: toto sa aplikuje na mená, "
+"adresy stránok a správy."
+
+#: ../simple-ajax-chat-admin.php:574
+msgid "Banned phrases"
+msgstr "Zakázané frázy"
+
+#: ../simple-ajax-chat-admin.php:585
+msgid "Restore Default Options"
+msgstr "Obnoviť východzie nastavenia"
+
+#: ../simple-ajax-chat-admin.php:593
+msgid "Click the button to restore plugin options to their default setttings."
+msgstr "Kliknite sem pre obnovenie východzích nastavení pluginu."
+
+#: ../simple-ajax-chat-admin.php:595
+msgid "Restore default settings"
+msgstr "Obnoviť východzie nastavenia"
+
+#: ../simple-ajax-chat-admin.php:599
+msgid "Delete all plugin settings"
+msgstr "Zmazať všetky nastavenia pluginu"
+
+#: ../simple-ajax-chat-admin.php:600
+msgid ""
+"To delete all plugin settings and chat messages from the database, simply "
+"uninstall (delete) the plugin."
+msgstr ""
+"Pre zmazanie všetkých nastavení a správ jednoducho odinštalujte (zmažte) "
+"plugin."
+
+#: ../simple-ajax-chat-admin.php:605
+msgid "Updates &amp; Info"
+msgstr "Aktualizácie &amp; Info"
+
+#: ../simple-ajax-chat-admin.php:656
+msgid "Hide this notice"
+msgstr "Skryť túto poznámku"
+
+#: ../simple-ajax-chat-admin.php:661
+msgid ""
+"Are you sure you want to delete all chat messages? (this action cannot be "
+"undone)"
+msgstr ""
+"Ste si istý že chcete zmazať všetky príspevky? (táto akcia je nezvratná)"
+
+#: ../simple-ajax-chat-admin.php:669
+msgid ""
+"Are you sure you want to restore default settings? (this action cannot be "
+"undone)"
+msgstr ""
+"Ste si istý že chcete obnoviť východzie nastavenia? (táto akcia je nezvratná)"
+
+#: ../simple-ajax-chat-form.php:79
+msgid "Latest Message:"
+msgstr "Najnovšia správa:"
+
+#: ../simple-ajax-chat-form.php:79
+#, php-format
+msgid "%s ago"
+msgstr "%s dozadu"
+
+#: ../simple-ajax-chat-form.php:83
+#, php-format
+msgid "Posted %s ago"
+msgstr "Pridané %s dozadu"
+
+#: ../simple-ajax-chat-form.php:109 ../simple-ajax-chat-form.php:119 ../simple-
+#: ajax-chat-form.php:120
+msgid "Name"
+msgstr "Meno"
+
+#: ../simple-ajax-chat-form.php:131 ../simple-ajax-chat-form.php:132
+msgid "URL"
+msgstr "Stránka"
+
+#: ../simple-ajax-chat-form.php:138 ../simple-ajax-chat-form.php:141
+msgid "Message"
+msgstr "Správa"
+
+#: ../simple-ajax-chat-form.php:150
+msgid "Human verification: leave this field empty."
+msgstr "Overenie že ste človek: nechajte toto pole prázdne."
+
+#: ../simple-ajax-chat-form.php:155
+msgid "Say it"
+msgstr "Povedz to"
+
+#: ../simple-ajax-chat-form.php:184
+msgid "You must be a registered user to participate in this chat."
+msgstr "Musíte byť zaregistrovaný aby ste sa mohli zapojiť."
+
+#: ../resources/sac.php:357
+msgid "Posted:"
+msgstr "Pridané:"
