@@ -32,6 +32,10 @@ $fullwidth = get_post_meta( get_the_ID(), '_x_post_layout', true );
         <div class="start_follow"> 
           <?php
           if ( function_exists( 'bp_follow_add_follow_button' ) ) :
+            // This is the logic for the follow button on the article pages.
+            // I'm struggling to apply logic for when the logged-in user is also the author.
+            // We want the button to allow that author to edit the story (rather than follow oneself).
+            // Open for suggestions/input!
               if ( bp_loggedin_user_id() && bp_loggedin_user_id() != get_the_author_meta( 'ID' ) ) {
                   bp_follow_add_follow_button( array(
                       'leader_id'   => get_the_author_meta( 'ID' ),
